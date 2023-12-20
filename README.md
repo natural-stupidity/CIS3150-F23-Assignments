@@ -3,7 +3,7 @@
 All of the assignments for CIS 3150 (Theory of Computation) at the University of Guelph 
 
 **Assignment 1** - Nondeterministic Finite Automata "Parser"<br/>
-**Assignment 2** - Recursive Regular Expression (Regex) Parser
+**Assignment 2** - Recursive Regular Expression (Regex) Parser<br/>
 **Assignment 3** - Recursive Regex to Descending Tree Parser<br/>
 **Assignment 4** - Simple Interpreter<br/>
 
