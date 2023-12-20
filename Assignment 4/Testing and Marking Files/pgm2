@@ -1,0 +1,19 @@
+1 int a 
+2 int b
+3 int c
+5 begin
+8 set a 5
+9 set b 0
+10 set c 1
+50 add b 1
+52 add c 1
+55 print b c  *
+60 if a ne b
+70   goto 50
+72 set a 1
+75 sub b 1
+80 add c 1
+85 print b c *
+90 if a ne b
+95   goto 75
+100 end

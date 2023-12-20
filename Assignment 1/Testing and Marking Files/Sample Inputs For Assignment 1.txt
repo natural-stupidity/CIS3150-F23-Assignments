@@ -1,0 +1,101 @@
+1. Accept if the number of 0 inputs is even.
+
+1 0
+3 a1 a2 a3
+a1
+a2
+4 0 0 0 0
+3
+a1 e a2
+a2 0 a3
+a3 0 a2
+
+
+2. Example 1.27 from textbook. Examined in class. Accept if the string contains either 101 or 11 as a substring.
+
+2  0 1
+4  q1 q2 q3 q4
+q1
+q4
+6  0 1 0 1 1 0
+8
+q1 0 q1
+q1 1 q1
+q1 1 q2
+q2 0 q3
+q2 e q3
+q3 1 q4
+q4 0 q4
+q4 1 q4
+
+
+3. Example 1.13 from text. Count the input values modulo 3.
+
+4  0 1 2 RESET
+3  q0 q1 q2
+q0
+q0
+3 2 RESET 1
+12
+q0 0 q0
+q0 RESET q0
+q0 1 q1
+q0 2 q2
+q1 0 q1
+q1 1 q2
+q1 2 q0
+q1 RESET q0
+q2 0 q2
+q2 1 q0
+q2 RESET q0
+q2 2 q1
+
+
+4. Accept if the string cat is followed by the string bird. Uses different state labels and longer input strings with different lengths.
+
+26 a b c d E f g h i j k l m n o p q r s t u v w x y z
+3 state1 state2 state3
+state1
+state3
+3 cat cat bird
+4
+state1 cat state2
+state2 bird state3
+state1 bird state1
+state2 cat state2
+
+
+5. A very long example that accepts the input if it is a lower case alphabet in order.
+
+26  a b c d E f g h i j k l m n o p q r s t u v w x y z
+27  s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27
+s1
+s27
+26  a b c d E f g h i j k l m n o p q r s t u v w x y z
+27
+s1 a s2
+s2 b s3
+s3  c s4
+s4  d s5
+s5  E s6
+s6  f s7
+s7  g s8
+s8  h s9
+s9  i s10
+s10  j s11 
+s11  k s12 
+s12  l s13 
+s13  m s14 
+s14  n s15 
+s15  o s16 
+s16  p s17 
+s17  q s18 
+s18  r s19 
+s19  s s20 
+s20  t s21 
+s21  u s22 
+s22  v s23 
+s23  w s24 
+s24  x s25 
+s25  y s26 
+s26  z s27 

@@ -1,0 +1,25 @@
+
+sample1
+match 2 6
+
+sample2
+match 3
+
+sample3
+match 3
+
+sample4
+match 2 7
+
+sample5
+match 1 5 10
+
+sample6
+match 3
+
+sample7
+match 0 6
+
+sample8
+no match
+

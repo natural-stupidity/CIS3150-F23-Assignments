@@ -1,0 +1,29 @@
+1 int a 
+2 int b
+3 int c
+5 begin
+8 set a 0
+9 set b 0
+10 if a eq b
+11   print a b 0
+12 add a 1
+13 if a gt b
+14   print a b 1
+20 add a 1
+21 if a gte b
+22   print a b 2
+30 add a 1
+31 if a ne b
+32   print a b 3
+33 add a 1
+40 set c -1
+41 if c lt b
+42   print a b 4
+43 add a  1
+45 if c lte b
+42   print a b 5
+50 if b lt c
+52   print a b error1
+55 if b eq c
+56   print a b error2
+100 end

@@ -1,0 +1,18 @@
+1 int a 
+2 int b
+3 int c
+4 int d
+5 begin
+8 set a 5
+9 set b 5
+52 set c 15
+53 set d 15
+55 print a b  .*
+80 add a 1
+90 if a lt c
+95   goto 55
+96 set a 5
+97 add b 1
+98 if b lt d
+99   goto 55
+100 end
