@@ -21,6 +21,8 @@ make
 - **Assignment 1:** `./a1 <file name>`
 - **Assignment 2:** `./a2 <file name>`
 - **Assignment 3:** `./a3 <file name>`
-- **Assignment 4:** `./a4 <file name>`
+- **Assignment 4:**
+  - GRAPHICS VERSION: `./a4 <file name>`
+  - NON GRAPHICS VERSION: `./a4ng <file name>`
 
 Each folder has instructions and example input files.
