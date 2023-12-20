@@ -25,4 +25,4 @@ make
   - GRAPHICS VERSION: `./a4 <file name>`
   - NON GRAPHICS VERSION: `./a4ng <file name>`
 
-Each folder has instructions and example input files.
+Each folder has descriptions / instructions and example input files.
