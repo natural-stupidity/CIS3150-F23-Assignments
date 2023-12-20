@@ -32,7 +32,7 @@ The CFG grammar for regular expressions is:
 <nline> ::= '\n'
 <endofline> ::= '\0'
 ```
-## 2. Input
+### 2. Input
 The input for the program will be a file containing the regular expression. The regular expression can contain any of the terminals listed in the grammar and the brackets ().
 
 Escape characters will appear as their single ASCII character equivalents. For example, the newline is represented as \n in the grammar but it will appear as the single character '\n' in the file. Similarly, the tab appears as \t in the grammar but it will be a tab in the input file.
@@ -43,7 +43,7 @@ Assume the regular expression will not be more than 1000 characters in length.
 
 Read the filename from the command line. There are no other command line arguments.
 
-## 3. Output
+### 3. Output
 
 Add your parser to the starting code and use the print() function to
 display the parse tree. 
@@ -78,7 +78,7 @@ Each time you match a character in the regex to a terminal you should advance th
 The starting code will display the first variable <regex> on the screen
 when it is run. Add recursive functions for the other rules.  
 
-## 4. Sample Output
+### 4. Sample Output
 ![pic0_20231028002158418](https://github.com/msirna/CIS3150-F23-Assignments/assets/91761269/2783a73d-1e41-4ca6-be3e-f5654ea0e78e)
 <br/>
 
