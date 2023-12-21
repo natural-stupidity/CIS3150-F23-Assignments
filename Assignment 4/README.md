@@ -11,11 +11,11 @@ This command will create two programs: a4 and a4ng.
   - **a4ng**: The non-graphical version of the program.
 
 2. To run the program, use one of the following commands:
-  - To run the GRAPHICS version, run:
+  - To run the GRAPHICS version:
     ```
     ./a4 <file name>
     ```
-  - To run the NON GRAPHICS version, run:
+  - To run the NON GRAPHICS version:
     ```
     ./a4ng <file name>
     ```
