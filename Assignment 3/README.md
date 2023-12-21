@@ -1,5 +1,16 @@
 # CIS 3150 Assignment 3
 
+## How to run:
+
+1. Open the folder / files in an IDE and run:
+```
+make
+```
+2. To run the program, use the following command:
+```
+./a3 <file name>
+```
+
 ## Assignment Description:
 
 Given the context free grammar for regular expressions write a recursive descent parser. 
@@ -86,14 +97,3 @@ when it is run. Add recursive functions for the other rules.
 <br/>
 
 ![pic0_20231101214753548](https://github.com/msirna/CIS3150-F23-Assignments/assets/91761269/7f911ab2-acea-478f-89e1-0f922c86805f)
-
-## How to run:
-
-1. Open the folder / files in an IDE and run:
-```
-make
-```
-2. To run the program, use the following command:
-```
-./a3 <file name>
-```
