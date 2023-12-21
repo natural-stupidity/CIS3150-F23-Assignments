@@ -6,7 +6,9 @@
 ```
 make
 ```
-This command will create two programs: a4 and a4ng
+This command will create two programs: a4 and a4ng.
+  - **a4**: The graphical version of the program.
+  - **a4ng**: The non-graphical version of the program.
 
 2. To run the program, use one of the following commands:
   - To run the GRAPHICS version, run:
