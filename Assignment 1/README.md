@@ -1,5 +1,16 @@
 # CIS 3150 Assignment 1
 
+## How to run:
+
+1. Open the folder / files in an IDE and run:
+```
+make
+```
+2. To run the program, use the following command:
+```
+./a1 <file name>
+```
+
 ## Assignment Description:
 Implement a nondeterministic finite automata that reads an input file which describes the NFA and outputs if it ends in an accept or reject state.
 
@@ -94,15 +105,4 @@ The above output means:
 0    1 0 0     -the input 0 with the starting state q1 leaves q1 active
 1    0 1 1     -input 1 with the above state leads to state q2 being active, when q2 activates it follows the epsilon transition and activates q3
 accept         -at the end of the input the accept state q3 is active so print accept
-```
-
-## How to run:
-
-1. Open the folder / files in an IDE and run:
-```
-make
-```
-2. To run the program, use the following command:
-```
-./a1 <file name>
 ```
