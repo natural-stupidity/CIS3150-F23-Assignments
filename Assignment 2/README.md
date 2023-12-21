@@ -1,5 +1,16 @@
 # CIS 3150 Assignment 2
 
+## How to run:
+
+1. Open the folder / files in an IDE and run:
+```
+make
+```
+2. To run the program, use the following command:
+```
+./a2 <file name>
+```
+
 ## Assignment Description:
 Add more metacharacters to the Rob Pike regular expression matching code.
 
@@ -84,15 +95,4 @@ abcdefg
 the output would be:
 ```
 match 1 3
-```
-
-## How to run:
-
-1. Open the folder / files in an IDE and run:
-```
-make
-```
-2. To run the program, use the following command:
-```
-./a2 <file name>
 ```
