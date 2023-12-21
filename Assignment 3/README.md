@@ -10,6 +10,7 @@ make
 ```
 ./a3 <file name>
 ```
+**Note: To exit the program, type "q" or "Ctrl-C".**
 
 ## Assignment Description:
 
