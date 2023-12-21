@@ -1,5 +1,23 @@
 # CIS 3150 Assignment 4
 
+## How to run:
+
+1. Open the folder / files in an IDE and run:
+```
+make
+```
+This command will create two programs: a4 and a4ng
+
+2. To run the program, use one of the following commands:
+  - To run the GRAPHICS version, run:
+    ```
+    ./a4 <file name>
+    ```
+  - To run the NON GRAPHICS version, run:
+    ```
+    ./a4ng <file name>
+    ```
+    
 ## Assignment Description:
 
 Write an interpreter which reads a program file and then executes the code stored in the file. 
@@ -78,21 +96,3 @@ Without curses the output will be:
 4 4 *
 5 5 *
 ```
-
-## How to run:
-
-1. Open the folder / files in an IDE and run:
-```
-make
-```
-This command will create two programs: a4 and a4ng
-
-2. To run the program, use one of the following commands:
-  - To run the GRAPHICS version, run:
-    ```
-    ./a4 <file name>
-    ```
-  - To run the NON GRAPHICS version, run:
-    ```
-    ./a4ng <file name>
-    ```
