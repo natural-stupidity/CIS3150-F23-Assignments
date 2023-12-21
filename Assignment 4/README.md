@@ -17,6 +17,7 @@ This command will create two programs: a4 and a4ng
     ```
     ./a4ng <file name>
     ```
+**Note: For the graphical version, type "q" or "Ctrl-C" to exit the program.**
     
 ## Assignment Description:
 
