@@ -69,7 +69,6 @@ Input strings can be longer than one character.
 There will not be more than 100 strings in the alphabet. Each string
 could be up to 10 characters long. The state names will not be longer than
 10 characters. The input sequence will not be longer than 100 strings.
-The code will be written in C and run on the linux.socs server.
 
 ### 3. Output
 The program will step through each input string and update the list of
